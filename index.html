@@ -1,576 +1,591 @@
-<html lang="vi" class="h-100 w-100"><head>
-  <title>Nhật Vy - Thiệp Cưới</title>
-  <link rel="preload" href="js/script.min.js">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta name="description" content="Nhật Vy - Thiệp Cưới">
-  <meta name="keywords" content="Nhật Vy - Thiệp Cưới">
-
-  <!-- Required CSS files -->
-  <link href="css/css.css" rel="stylesheet">
-
-  <!-- Favicon -->
-  <link rel="icon" href="images/favicon-32x32.png" sizes="32x32" type="image/png">
-  <link rel="icon" href="images/favicon-16x16.png" sizes="16x16" type="image/png">
-  <link rel="icon" href="images/favicon.ico">
-</head>
-
-<body id="page-top" class="h-100 overflow-x-hidden w-100">
-
-  <!-- Preloader Start -->
-  <div class="preloader bg-white h-100 position-fixed w-100 d-none">
+<html lang="vi" class="h-100 w-100">
+  <head>
+    <title>Nhật Vy - Thiệp Cưới</title>
+    <link rel="preload" href="js/script.min.js">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Nhật Vy - Thiệp Cưới">
+    <meta name="keywords" content="Nhật Vy - Thiệp Cưới">
+    <!-- Required CSS files -->
+    <link href="css/css.css" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="images/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="images/favicon.ico">
+  </head>
+  <body id="page-top" class="h-100 overflow-x-hidden w-100">
+    <!-- Preloader Start -->
+    <div class="preloader bg-white h-100 position-fixed w-100 d-none">
       <svg width="100px" height="100px" viewBox="0 0 100 100" y="0px" x="0px" class="position-absolute start-50 top-50 translate-middle">
-          <g>
-              <path class="anim-heart" d="M89.49,37.8c0,25.54-39.59,46.24-39.59,46.24S10.31,63.34,10.31,37.8c0-29.59,39.59-28.67,39.59,0C49.9,10.06,89.49,8.21,89.49,37.8 z" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" stroke="#000000" fill="#DDB796"></path>
-              <path class="anim-heart-sm" d="M89.63,70.9c-3.57,10.15-22.21,12.84-22.21,12.84s-12.84-13.77-9.26-23.92c4.14-11.76,19.75-5.86,15.74,5.54 C77.78,54.33,93.78,59.13,89.63,70.9z" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" stroke="#000000" fill="#B46A48"></path>
-          </g>
+        <g>
+          <path class="anim-heart" d="M89.49,37.8c0,25.54-39.59,46.24-39.59,46.24S10.31,63.34,10.31,37.8c0-29.59,39.59-28.67,39.59,0C49.9,10.06,89.49,8.21,89.49,37.8 z" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" stroke="#000000" fill="#DDB796"></path>
+          <path class="anim-heart-sm" d="M89.63,70.9c-3.57,10.15-22.21,12.84-22.21,12.84s-12.84-13.77-9.26-23.92c4.14-11.76,19.75-5.86,15.74,5.54 C77.78,54.33,93.78,59.13,89.63,70.9z" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.5" stroke="#000000" fill="#B46A48"></path>
+        </g>
       </svg>
-  </div>
-  <!-- Preloader End -->
-
-
-  <!-- Header Start -->
-  <header class="fixed-top">
+    </div>
+    <!-- Preloader End -->
+    <!-- Header Start -->
+    <header class="fixed-top">
       <nav class="navbar navbar-expand-lg p-0">
-          <div class="container">
-              <!-- Navbar brand (mobile) -->
-              <div class="navbar-brand align-items-center d-flex d-lg-none me-0">
-                  <img width="187" height="73" src="images/navbar-brand-mobile.png" alt="Logo">
-              </div>
-
-              <!-- Navbar toggler -->
-              <button class="navbar-toggler bg-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-
-              <!-- Navbar menu -->
-              <div id="navbar" class="collapse navbar-collapse justify-content-lg-center">
-                  <ul class="navbar-nav pt-3 pt-lg-0">
-                      <li class="nav-item me-3">
-                          <a class="nav-link page-scroll" href="#the-couple">Cặp đôi</a>
-                      </li>
-                      <li class="nav-item me-3">
-                          <a class="nav-link page-scroll" href="#wedding-event">Sự Kiện</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link page-scroll" href="#love-story">Chuyện Tình Yêu</a>
-                      </li>
-                  </ul>
-
-                  <!-- Navbar brand (desktop) -->
-                  <div class="navbar-brand d-none d-lg-block mx-3 mx-xl-4 position-relative text-center">
-                      <img width="180" height="123" src="images/navbar-brand.png" alt="Logo" class="mt-4 position-absolute start-0 top-0">
-                  </div>
-
-                  <ul class="navbar-nav">
-                      <li class="nav-item me-3">
-                          <a class="nav-link page-scroll" href="#photos">Hình Ảnh</a>
-                      </li>
-                      <li class="nav-item me-3">
-                          <a class="nav-link page-scroll" href="#wedding-gifts">Quà Cưới</a>
-                      </li>
-                  </ul>
-              </div>
-              <!-- //.collapse -->
+        <div class="container">
+          <!-- Navbar brand (mobile) -->
+          <div class="navbar-brand align-items-center d-flex d-lg-none me-0">
+            <img width="187" height="73" src="images/navbar-brand-mobile.png" alt="Logo">
           </div>
-          <!-- //.container -->
+          <!-- Navbar toggler -->
+          <button class="navbar-toggler bg-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Navbar menu -->
+          <div id="navbar" class="collapse navbar-collapse justify-content-lg-center">
+            <ul class="navbar-nav pt-3 pt-lg-0">
+              <li class="nav-item me-3">
+                <a class="nav-link page-scroll" href="#the-couple">Cặp đôi</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link page-scroll" href="#wedding-event">Sự Kiện</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#love-story">Chuyện Tình Yêu</a>
+              </li>
+            </ul>
+            <!-- Navbar brand (desktop) -->
+            <div class="navbar-brand d-none d-lg-block mx-3 mx-xl-4 position-relative text-center">
+              <img width="180" height="123" src="images/navbar-brand.png" alt="Logo" class="mt-4 position-absolute start-0 top-0">
+            </div>
+            <ul class="navbar-nav">
+              <li class="nav-item me-3">
+                <a class="nav-link page-scroll" href="#photos">Hình Ảnh</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link page-scroll" href="#wedding-gifts">Quà Cưới</a>
+              </li>
+            </ul>
+          </div>
+          <!-- //.collapse -->
+        </div>
+        <!-- //.container -->
       </nav>
-  </header>
-  <!-- Header End -->
-
-
-  <!-- Spacer -->
-  <span class="spacer d-block w-100"></span>
-
-
-  <!-- Section - Hero Start -->
-  <section id="hero" class="bg-secondary-2">
+    </header>
+    <!-- Header End -->
+    <!-- Spacer -->
+    <span class="spacer d-block w-100"></span>
+    <!-- Section - Hero Start -->
+    <section id="hero" class="bg-secondary-2">
       <div class="container">
-          <div class="row align-items-center">
-              <div class="col-lg-6 mb-5 mb-lg-0 position-relative text-center z-2">
-                  <div class="border border-2 border-primary d-inline-block mb-4 px-4 py-2">
-                      <h2 class="font-alt fs-1 m-0 text-primary">Minh Nhật &amp; Phương Vy</h2>
-                  </div>
-                  <!-- //.border -->
-
-                  <h3 class="fs-1 font-alt mb-3">We Tie The Knot</h3>
-                  <p class="lead mb-5 text-body-secondary">Thân mời mọi người tham dự đám cưới của tụi mình!</p>
-                  <span class="divider divider-arrow"></span>
-              </div>
-              <!-- //.col-lg-6 -->
-
-              <div class="col-lg-6 order-lg-first position-relative">
-                  <div class="row justify-content-center justify-content-lg-start">
-                      <div class="col-12 col-sm-10 col-md-8 col-lg-9">
-                          <div class="position-relative z-2">
-                              <svg width="100%" height="100%" viewBox="0 0 500 685" xmlns="http://www.w3.org/2000/svg" class="position-relative z-2">
-                                  <defs>
-                                      <clipPath id="clip-path-hero" clipPathUnits="userSpaceOnUse">
-                                          <path d="M165.836,1644.64C94.328,1209.04 90.753,779.697 165.349,357.564C180.459,272.058 246.591,204.825 331.662,187.446C599.258,132.777 869.097,133.687 1141.07,187.523C1228.32,204.794 1295.77,274.608 1309.15,362.538C1375.85,800.802 1379.67,1230.03 1311.42,1648.91C1297.09,1736.89 1228.64,1806.34 1140.92,1822.2C881.395,1869.15 613.861,1865.59 339.554,1819.32C250.208,1804.25 180.513,1734.05 165.836,1644.64Z" transform="matrix(0.399961,0,0,0.399961,-44.3128,-58.0804)"></path>
-                                      </clipPath>
-                                  </defs>
-
-                                  <foreignObject clip-path="url(#clip-path-hero)" width="100%" height="100%">
-                                      <img src="images/hagiang.JPG" style="max-width: 500px;height: inherit" alt="Cô Dâu & Chú Rể">
-                                  </foreignObject>
-                              </svg>
-
-                              <!-- SVG Image -->
-                              <img src="images/shape-particle.svg" alt="" class="shape-particle end-0 position-absolute top-0 z-3">
-                              <img src="images/shape-rect-the-couple-1.svg" alt="" class="shape-rect shape-rect-lg bottom-0 end-0 position-absolute z-1">
-                          </div>
-                          <!-- //.position-relative -->
-                      </div>
-                      <!-- //.col-12 -->
-                  </div>
-                  <!-- //.row -->
-
-                  <!-- SVG Image -->
-                  <img src="images/shape-rect-the-couple-3.svg" alt="" class="shape-rect d-md-none d-lg-block position-absolute start-0 top-0 z-1">
-              </div>
-              <!-- //.col-lg-6 -->
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-5 mb-lg-0 position-relative text-center z-2">
+            <div class="border border-2 border-primary d-inline-block mb-4 px-4 py-2">
+              <h2 class="font-alt fs-1 m-0 text-primary">Minh Nhật &amp; Phương Vy</h2>
+            </div>
+            <!-- //.border -->
+            <h3 class="fs-1 font-alt mb-3">We Tie The Knot</h3>
+            <p class="lead mb-5 text-body-secondary">Thân mời mọi người tham dự đám cưới của tụi mình!</p>
+            <span class="divider divider-arrow"></span>
           </div>
-          <!-- //.row -->
+          <!-- //.col-lg-6 -->
+          <div class="col-lg-6 order-lg-first position-relative">
+            <div class="row justify-content-center justify-content-lg-start">
+              <div class="col-12 col-sm-10 col-md-8 col-lg-9">
+                <div class="position-relative z-2">
+                  <svg width="100%" height="100%" viewBox="0 0 500 685" xmlns="http://www.w3.org/2000/svg" class="position-relative z-2">
+                    <defs>
+                      <clipPath id="clip-path-hero" clipPathUnits="userSpaceOnUse">
+                        <path d="M165.836,1644.64C94.328,1209.04 90.753,779.697 165.349,357.564C180.459,272.058 246.591,204.825 331.662,187.446C599.258,132.777 869.097,133.687 1141.07,187.523C1228.32,204.794 1295.77,274.608 1309.15,362.538C1375.85,800.802 1379.67,1230.03 1311.42,1648.91C1297.09,1736.89 1228.64,1806.34 1140.92,1822.2C881.395,1869.15 613.861,1865.59 339.554,1819.32C250.208,1804.25 180.513,1734.05 165.836,1644.64Z" transform="matrix(0.399961,0,0,0.399961,-44.3128,-58.0804)"></path>
+                      </clipPath>
+                    </defs>
+                    <foreignObject clip-path="url(#clip-path-hero)" width="100%" height="100%">
+                      <img src="images/anh chinh.jpeg" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" alt="Cô Dâu & Chú Rể">
+                    </foreignObject>
+                  </svg>
+                  <!-- SVG Image -->
+                  <img src="images/shape-particle.svg" alt="" class="shape-particle end-0 position-absolute top-0 z-3">
+                  <img src="images/shape-rect-the-couple-1.svg" alt="" class="shape-rect shape-rect-lg bottom-0 end-0 position-absolute z-1">
+                </div>
+                <!-- //.position-relative -->
+              </div>
+              <!-- //.col-12 -->
+            </div>
+            <!-- //.row -->
+            <!-- SVG Image -->
+            <img src="images/shape-rect-the-couple-3.svg" alt="" class="shape-rect d-md-none d-lg-block position-absolute start-0 top-0 z-1">
+          </div>
+          <!-- //.col-lg-6 -->
+        </div>
+        <!-- //.row -->
       </div>
       <!-- //.container -->
-
       <!-- SVG Image -->
       <img src="images/shape-wave-top-right.svg" alt="" class="shape-wave d-none d-lg-block end-0 position-absolute top-0 z-1">
       <img src="images/shape-wave-bottom-right-1.svg" alt="" class="shape-wave shape-wave-xl bottom-0 d-none d-lg-block end-0 position-absolute z-1">
-  </section>
-  <!-- Section - Hero End -->
-
-
-  <!-- Section - The Couple Start -->
-  <section id="the-couple">
+    </section>
+    <!-- Section - Hero End -->
+    <!-- Section - The Couple Start -->
+    <section id="the-couple">
       <div class="container position-relative z-2">
-          <div class="row mb-5 pb-lg-5">
-              <div class="col-12 position-relative text-center z-2">
-                  <h2 class="font-alt fs-1 mb-3">Chú Rể & Cô Dâu</h2>
-                  <p class="fs-5 mb-4 text-body-secondary">Hôn nhân hạnh phúc là sự kết hợp của hai người biết tha thứ.</p>
-                  <span class="divider divider-arrow"></span>
-              </div>
-              <!-- //.col-12 -->
+        <div class="row mb-5 pb-lg-5">
+          <div class="col-12 position-relative text-center z-2">
+            <h2 class="font-alt fs-1 mb-3">Chú Rể & Cô Dâu</h2>
+            <p class="fs-5 mb-4 text-body-secondary">Hôn nhân hạnh phúc là sự kết hợp của hai người biết tha thứ.</p>
+            <span class="divider divider-arrow"></span>
           </div>
-          <!-- //.row -->
-
-          <div class="row align-items-center gx-xl-5 justify-content-center">
-              <div class="col-10 col-md-8 col-lg-5 col-xl-3 mb-5 mb-xl-0 text-center">
-                  <h3 class="font-alt">Minh Nhật</h3>
-                  <p class="text-body-secondary">Anh chào em cô dâu Phương Vy ơi.</p>
-              </div>
-              <!-- //.col-10 -->
-
-              <div class="col-10 col-md-8 col-xl-6 mb-5 mb-xl-0">
-                  <div class="position-relative z-2">
-                      <svg width="100%" height="328px" viewBox="0 0 624 456" xmlns="http://www.w3.org/2000/svg" class="position-relative z-2">
-                          <defs>
-                              <clipPath id="clip-path-the-couple" clipPathUnits="userSpaceOnUse">
-                                  <path d="M122.297,1714.66C65.338,1367.69 62.491,1025.7 121.909,689.455C133.944,621.346 186.621,567.793 254.384,553.949C467.534,510.404 682.471,511.129 899.109,554.011C968.605,567.767 1022.33,623.377 1032.99,693.417C1086.12,1042.51 1089.16,1384.41 1034.8,1718.06C1023.38,1788.14 968.865,1843.46 898.991,1856.1C692.267,1893.49 479.166,1890.66 260.67,1853.8C189.503,1841.8 133.988,1785.88 122.297,1714.66Z" transform="matrix(2.80689e-17,-0.457937,0.4584,2.80405e-17,-239.087,491.927)"></path>
-                              </clipPath>
-                          </defs>
-
-                          <foreignObject clip-path="url(#clip-path-the-couple)" width="100%" height="100%">
-                              <img src="images2/IMG_1686.jpg" alt="Cô Dâu & Chú Rể">
-                          </foreignObject>
-                      </svg>
-
-                      <!-- SVG Image -->
-                      <img src="images/shape-particle.svg" alt="" class="shape-particle d-none d-md-block position-absolute start-0 top-0 z-3">
-                      <img src="images/shape-heart-balloon-mr.svg" alt="" class="shape-heart-balloon mt-4 position-absolute start-0 top-50 translate-middle-y z-2">
-                      <img src="images/shape-heart-balloon-mrs.svg" alt="" class="shape-heart-balloon end-0 position-absolute top-50 translate-middle-y z-2">
-                  </div>
-                  <!-- //.position-relative -->
-              </div>
-              <!-- //.col-10 -->
-
-              <div class="col-10 col-md-8 col-lg-5 col-xl-3 text-center">
-                  <h3 class="font-alt">Phương Vy</h3>
-                  <p class="text-body-secondary">Em chào anh chú rể Minh Nhật của em.</p>
-              </div>
-              <!-- //.col-10 -->
+          <!-- //.col-12 -->
+        </div>
+        <!-- //.row -->
+        <div class="row align-items-center gx-xl-5 justify-content-center">
+          <div class="col-10 col-md-8 col-lg-5 col-xl-3 mb-5 mb-xl-0 text-center">
+            <h3 class="font-alt">Minh Nhật</h3>
+            <p class="text-body-secondary">Anh chào em cô dâu Phương Vy ơi.</p>
           </div>
-          <!-- //.row -->
+          <!-- //.col-10 -->
+          <div class="col-10 col-md-8 col-xl-6 mb-5 mb-xl-0">
+            <div class="position-relative z-2">
+              <svg width="100%" height="328px" viewBox="0 0 624 456" xmlns="http://www.w3.org/2000/svg" class="position-relative z-2">
+                <defs>
+                  <clipPath id="clip-path-the-couple" clipPathUnits="userSpaceOnUse">
+                    <path d="M122.297,1714.66C65.338,1367.69 62.491,1025.7 121.909,689.455C133.944,621.346 186.621,567.793 254.384,553.949C467.534,510.404 682.471,511.129 899.109,554.011C968.605,567.767 1022.33,623.377 1032.99,693.417C1086.12,1042.51 1089.16,1384.41 1034.8,1718.06C1023.38,1788.14 968.865,1843.46 898.991,1856.1C692.267,1893.49 479.166,1890.66 260.67,1853.8C189.503,1841.8 133.988,1785.88 122.297,1714.66Z" transform="matrix(2.80689e-17,-0.457937,0.4584,2.80405e-17,-239.087,491.927)"></path>
+                  </clipPath>
+                </defs>
+                <foreignObject clip-path="url(#clip-path-the-couple)" width="100%" height="100%">
+                  <img src="images/T91A4854.jpg" alt="Cô Dâu & Chú Rể">
+                </foreignObject>
+              </svg>
+              <!-- SVG Image -->
+              <img src="images/shape-particle.svg" alt="" class="shape-particle d-none d-md-block position-absolute start-0 top-0 z-3">
+              <img src="images/shape-heart-balloon-mr.svg" alt="" class="shape-heart-balloon mt-4 position-absolute start-0 top-50 translate-middle-y z-2">
+              <img src="images/shape-heart-balloon-mrs.svg" alt="" class="shape-heart-balloon end-0 position-absolute top-50 translate-middle-y z-2">
+            </div>
+            <!-- //.position-relative -->
+          </div>
+          <!-- //.col-10 -->
+          <div class="col-10 col-md-8 col-lg-5 col-xl-3 text-center">
+            <h3 class="font-alt">Phương Vy</h3>
+            <p class="text-body-secondary">Em chào anh chú rể Minh Nhật của em.</p>
+          </div>
+          <!-- //.col-10 -->
+        </div>
+        <!-- //.row -->
       </div>
       <!-- //.container -->
-
       <!-- SVG Image -->
       <img src="images/shape-wave-top-left-1.svg" alt="" class="shape-wave shape-wave-sm d-none d-lg-block mt-5 position-absolute start-0 top-0 z-1">
       <img src="images/shape-wave-bottom-right-2.svg" alt="" class="shape-wave bottom-0 d-none d-lg-block end-0 position-absolute z-1">
-  </section>
-  <!-- Section - The Couple End -->
-
-
-  <!-- Section - Wedding Event Start -->
-  <section id="wedding-event" class="bg-secondary-2">
+    </section>
+    <!-- Section - The Couple End -->
+    <!-- Section - Wedding Event Start -->
+    <section id="wedding-event" class="bg-secondary-2">
       <div class="container position-relative z-2">
-          <div class="row mb-5 pb-lg-5">
-              <div class="col-12 position-relative text-center z-2">
-                  <h2 class="font-alt fs-1 mb-3">Sự Kiện Cưới</h2>
-                  <p class="fs-5 mb-4 text-body-secondary">Nếu bạn chỉ có một nụ cười, hãy trao nó cho người bạn yêu thương.</p>
-                  <span class="divider divider-arrow"></span>
-              </div>
-              <!-- //.col-12 -->
+        <div class="row mb-5 pb-lg-5">
+          <div class="col-12 position-relative text-center z-2">
+            <h2 class="font-alt fs-1 mb-3">Sự Kiện Cưới</h2>
+            <p class="fs-5 mb-4 text-body-secondary">Nếu bạn chỉ có một nụ cười, hãy trao nó cho người bạn yêu thương.</p>
+            <span class="divider divider-arrow"></span>
           </div>
-          <!-- //.row -->
-
-          <div class="row gx-lg-5 justify-content-center">
-              <div class="col-12 col-sm-10 col-md-10 col-lg-6 col-xl-5 mb-5 mb-lg-0 text-center">
-                  <div class="position-relative mb-5">
-                      <svg width="100%" height="324px" viewBox="0 0 624 456" xmlns="http://www.w3.org/2000/svg" class="position-relative z-2">
-                          <defs>
-                              <clipPath id="clip-path-wedding-party-1" clipPathUnits="userSpaceOnUse">
-                                  <path d="M122.297,1714.66C65.338,1367.69 62.491,1025.7 121.909,689.455C133.944,621.346 186.621,567.793 254.384,553.949C467.534,510.404 682.471,511.129 899.109,554.011C968.605,567.767 1022.33,623.377 1032.99,693.417C1086.12,1042.51 1089.16,1384.41 1034.8,1718.06C1023.38,1788.14 968.865,1843.46 898.991,1856.1C692.267,1893.49 479.166,1890.66 260.67,1853.8C189.503,1841.8 133.988,1785.88 122.297,1714.66Z" transform="matrix(2.80689e-17,-0.457937,0.4584,2.80405e-17,-239.087,491.927)"></path>
-                              </clipPath>
-                          </defs>
-
-                          <foreignObject clip-path="url(#clip-path-wedding-party-1)" width="100%" height="100%">
-                              <img src="images2/IMG_9167.jpeg" alt="The Bride">
-                          </foreignObject>
-                      </svg>
-
-                      <!-- SVG Image -->
-                      <img src="images/shape-particle.svg" alt="" class="shape-particle d-none d-md-block position-absolute start-0 top-0 z-3">
-                  </div>
-                  <!-- //.position-relative -->
-
-                  <h3 class="display-5 font-alt">Minh Nhật - Phương Vy</h3>
-                  <p class="fs-5 fw-bold ls-2 mb-5 text-primary text-uppercase">Thân mời bạn</br>
-                    Đến chung vui cùng gia đình<br>
-                    tụi mình vào
-                  </p>
-                    <ul class="list-unstyled">
-                        <li class="mb-5">
-                            <h3 class="font-alt">Chủ nhật - 16.03.2025  |  11:00</h3>
-                        </li>
-
-                        <li class="mb-5">
-                            <h3 class="font-alt">Tư gia nhà Trai</h3>
-                            <p class="fs-10 fw-bold ls-2 m-0 text-primary-2 text-uppercase">25 Lộc Tân, Phú Lộc, Krông Năng, Đắk Lắk</p>
-                        </li>
-                        <li class="mb-5">
-                            <p class="fs-10 fw-bold ls-2 m-0 text-primary-2 text-uppercase">Đừng quên đêm thân mật vào (tối 15/03/2025 5h chiều nhé!)</p>
-                        </li>
-                    </ul>
-              </div>
-          </div>
-          <!-- //.row -->
-      </div>
-      <!-- //.container -->
-  </section>
-  <!-- Section - Wedding Party End -->
-
-
-    <!-- Section - Love Story Start -->
-    <section id="love-story" class="bg-holder" data-bg-image="images2/bg-story.jpg" style="background-image: url("images2/bg-story.jpg");">
-    <div class="container">
-        <div class="row align-items-center justify-content-center justify-content-lg-end">
-            <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-5">
-                <div id="carousel-love-story" class="carousel slide">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="shape-rect-content-wrapper position-relative py-5 py-sm-0 rounded-5">
-                                <div class="shape-rect-content d-flex flex-column justify-content-center pb-5 pb-xl-0 px-4 px-sm-5 text-center">
-                                    <h3 class="font-alt">Lần Đầu Gặp Nhau</h3>
-                                    <span class="divider divider-heart mb-4"></span>
-                                    <p class="mb-xl-4 text-body-secondary">Tụi mình gặp nhau qua buổi phỏng vấn của mình vào công ty. Ấn tượng đầu tiên là Vy thơm lắm mọi người. Sau đại dịch Covid thì tụi mình bắt đầu tìm hiểu nhau. Buổi hẹn đầu tiên tụi mình ra cà phê Xô Bồ, tên nó hơi Xô Bồ tí nhưng không phải là Xô Bồ. Tụi mình vẫn còn ngại ngùng ở lần đầu. Tuy nhiên, buổi hẹn thứ hai diễn ra tốt đẹp hơn nhiều.</p>
-                                    <span class="divider divider-floral d-none d-xl-block"></span>
-                                </div>
-                                <!-- //.shape-rect-content -->
-
-                                <!-- SVG Image -->
-                                <img src="images/shape-rect-content-wrapper.svg" alt="" class="d-none d-sm-block img-fluid">
-                            </div>
-                            <!-- //.shape-rect-content-wrapper -->
-                        </div>
-                        <!-- //.carousel-item -->
-
-                        <div class="carousel-item">
-                            <div class="shape-rect-content-wrapper position-relative py-5 py-sm-0 rounded-5">
-                                <div class="shape-rect-content d-flex flex-column justify-content-center pb-5 pb-xl-0 px-4 px-sm-5 text-center">
-                                    <h3 class="font-alt">Những Buổi Hẹn Hò</h3>
-                                    <span class="divider divider-heart mb-4"></span>
-                                    <p class="mb-xl-4 text-body-secondary">Điểm thú vị là tụi mình chung công ty nên mình được đưa đón Vy đi làm mỗi ngày. Tụi mình cùng nhau khám phá những quán cà phê mới, dạo phố cuối tuần và chia sẻ những câu chuyện về cuộc sống. Mỗi buổi hẹn lại khiến hiểu nhau và gắn kết hơn.</p>
-                                    <span class="divider divider-floral d-none d-xl-block"></span>
-                                </div>
-                                <!-- //.shape-rect-content -->
-
-                                <!-- SVG Image -->
-                                <img src="images/shape-rect-content-wrapper.svg" alt="" class="d-none d-sm-block img-fluid">
-                            </div>
-                            <!-- //.shape-rect-content-wrapper -->
-                        </div>
-                        <!-- //.carousel-item -->
-
-                        <div class="carousel-item">
-                            <div class="shape-rect-content-wrapper position-relative py-5 py-sm-0 rounded-5">
-                                <div class="shape-rect-content d-flex flex-column justify-content-center pb-5 pb-xl-0 px-4 px-sm-5 text-center">
-                                    <h3 class="font-alt">Khoảnh Khắc Hạnh Phúc</h3>
-                                    <span class="divider divider-heart mb-4"></span>
-                                    <p class="mb-xl-4 text-body-secondary">Những tháng ngày bên nhau trôi qua thật nhanh, vui có buồn có. Cùng nhau trải qua nhiều kỷ niệm đáng nhớ, từ những chuyến đi chơi xa ở Tây Bắc đến những buổi tối đơn giản ở nhà đi dạo cùng nhau. Tình yêu lớn dần theo thời gian, và tụi mình hoà hợp hơn, chấp nhận được những thứ khác biệt của nhau.</p>
-                                    <span class="divider divider-floral d-none d-xl-block"></span>
-                                </div>
-                                <!-- //.shape-rect-content -->
-
-                                <!-- SVG Image -->
-                                <img src="images/shape-rect-content-wrapper.svg" alt="" class="d-none d-sm-block img-fluid">
-                            </div>
-                            <!-- //.shape-rect-content-wrapper -->
-                        </div>
-                        <!-- //.carousel-item -->
-
-                        <div class="carousel-item">
-                            <div class="shape-rect-content-wrapper position-relative py-5 py-sm-0 rounded-5">
-                                <div class="shape-rect-content d-flex flex-column justify-content-center pb-5 pb-xl-0 px-4 px-sm-5 text-center">
-                                    <h3 class="font-alt">Tình Yêu Trọn Vẹn</h3>
-                                    <span class="divider divider-heart mb-4"></span>
-                                    <p class="mb-xl-4 text-body-secondary">Sau gần 3 năm bên nhau, tụi mình đã chắc chắn về tình cảm của nhau. Đã trải qua đủ những khoảnh khắc vui buồn, những thử thách và hạnh phúc. Tình yêu đã trưởng thành và sâu sắc hơn, và biết rằng đã đến lúc bước tiếp sang trang mới của cuộc đời.</p>
-                                    <span class="divider divider-floral d-none d-xl-block"></span>
-                                </div>
-                                <!-- //.shape-rect-content -->
-
-                                <!-- SVG Image -->
-                                <img src="images/shape-rect-content-wrapper.svg" alt="" class="d-none d-sm-block img-fluid">
-                            </div>
-                            <!-- //.shape-rect-content-wrapper -->
-                        </div>
-                        <!-- //.carousel-item -->
-                    </div>
-                    <!-- //.carousel-inner -->
-
-                    <div class="carousel-indicators align-items-center d-flex m-0 mx-auto">
-                        <img src="images/carousel-indicator-wrapper.svg" alt="" class="img-fluid position-absolute start-0 top-0">
-                    </div>
-                    <!-- //.carousel-indicators -->
-                </div>
-                <!-- //.carousel -->
-            </div>
-            <!-- //.col-12 -->
+          <!-- //.col-12 -->
         </div>
         <!-- //.row -->
-    </div>
-    <!-- //.container -->
-    </section>
-    <!-- Section - Love Story End -->
-
-
-  <!-- Section - Photos Start -->
-  <section id="photos" class="border-top">
-      <div class="container">
-          <div class="row mb-5 pb-lg-5">
-              <div class="col-12 position-relative text-center z-2">
-                  <h2 class="font-alt fs-1 mb-3">Thư Viện Ảnh</h2>
-                  <p class="fs-5 mb-4 text-body-secondary">Mỗi khoảnh khắc trong cuộc sống đều là một phép màu, chúng ta nên tận hưởng thay vì bỏ qua.</p>
-                  <span class="divider divider-arrow"></span>
-              </div>
-              <!-- //.col-12 -->
+        <div class="row gx-lg-5 justify-content-center">
+          <div class="col-12 col-sm-10 col-md-10 col-lg-6 col-xl-5 mb-5 mb-lg-0 text-center">
+            <div class="position-relative mb-5">
+              <svg width="100%" height="324px" viewBox="0 0 624 456" xmlns="http://www.w3.org/2000/svg" class="position-relative z-2">
+                <defs>
+                  <clipPath id="clip-path-wedding-party-1" clipPathUnits="userSpaceOnUse">
+                    <path d="M122.297,1714.66C65.338,1367.69 62.491,1025.7 121.909,689.455C133.944,621.346 186.621,567.793 254.384,553.949C467.534,510.404 682.471,511.129 899.109,554.011C968.605,567.767 1022.33,623.377 1032.99,693.417C1086.12,1042.51 1089.16,1384.41 1034.8,1718.06C1023.38,1788.14 968.865,1843.46 898.991,1856.1C692.267,1893.49 479.166,1890.66 260.67,1853.8C189.503,1841.8 133.988,1785.88 122.297,1714.66Z" transform="matrix(2.80689e-17,-0.457937,0.4584,2.80405e-17,-239.087,491.927)"></path>
+                  </clipPath>
+                </defs>
+                <foreignObject clip-path="url(#clip-path-wedding-party-1)" width="100%" height="100%">
+                  <img src="images2/IMG_1686.jpg" alt="The Bride">
+                </foreignObject>
+              </svg>
+              <!-- SVG Image -->
+              <img src="images/shape-particle.svg" alt="" class="shape-particle d-none d-md-block position-absolute start-0 top-0 z-3">
+            </div>
+            <!-- //.position-relative -->
+            <h3 class="display-5 font-alt">Minh Nhật - Phương Vy</h3>
+            <p class="fs-5 fw-bold ls-2 mb-5 text-primary text-uppercase">Thân mời bạn </br> Đến chung vui cùng gia đình <br> tụi mình vào </p>
+            <ul class="list-unstyled">
+              <li class="mb-5">
+                <h3 class="font-alt">Chủ nhật - 16.03.2025 | 18:00</h3>
+              </li>
+              <li class="mb-5">
+                <h3 class="font-alt">Tư gia nhà Trai</h3>
+                <p class="fs-10 fw-bold ls-2 m-0 text-primary-2 text-uppercase">25 Lộc Tân, Phú Lộc, Krông Năng, Đắk Lắk</p>
+              </li>
+              <li class="mb-5">
+                <p class="fs-10 fw-bold ls-2 m-0 text-primary-2 text-uppercase">Đừng quên đêm thân mật vào (tối 15/03/2025 5h chiều nhé!)</span>
+                </p>
+              </li>
+            </ul>
           </div>
-          <!-- //.row -->
-
-          <div class="row gallery-grid">
-              <div class="col-6 col-lg-3 mb-4">
-                  <figure>
-                      <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
-                          <img src="images2/hihi.jpg" alt="" class="img-fluid">
-                      </a>
-                  </figure>
-              </div>
-              <!-- //.col-6 -->
-
-              <div class="col-6 col-lg-3 mb-4">
-                  <figure>
-                      <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
-                          <img src="images2/AY4A0816.jpg" alt="" class="img-fluid">
-                      </a>
-                  </figure>
-              </div>
-              <!-- //.col-6 -->
-
-              <div class="col-6 col-lg-3 mb-4">
-                  <figure>
-                      <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
-                          <img src="images2/dclassic 2024-03-01 52757.721 CH.jpg" alt="" class="img-fluid">
-                      </a>
-                  </figure>
-              </div>
-              <!-- //.col-6 -->
-
-              <div class="col-6 col-lg-3 mb-4">
-                  <figure>
-                      <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
-                          <img src="images2/IMG_0314.jpg" alt="" class="img-fluid">
-                      </a>
-                  </figure>
-              </div>
-              <!-- //.col-6 -->
-
-              <div class="col-6 col-lg-3 mb-4">
-                  <figure>
-                      <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
-                          <img src="images2/IMG_0595.jpg" alt="" class="img-fluid">
-                      </a>
-                  </figure>
-              </div>
-              <!-- //.col-6 -->
-
-              <div class="col-6 col-lg-3 mb-4">
-                  <figure>
-                      <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
-                          <img src="images2/IMG_1686.jpg" alt="" class="img-fluid">
-                      </a>
-                  </figure>
-              </div>
-              <!-- //.col-6 -->
-
-              <div class="col-6 col-lg-3 mb-4">
-                  <figure>
-                      <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
-                          <img src="images2/IMG_6005.jpeg" alt="" class="img-fluid">
-                      </a>
-                  </figure>
-              </div>
-              <!-- //.col-6 -->
-
-              <div class="col-6 col-lg-3 mb-4">
-                  <figure>
-                      <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
-                          <img src="images2/IMG_4808.jpeg" alt="" class="img-fluid">
-                      </a>
-                  </figure>
-              </div>
-              <!-- //.col-6 -->
-              
-              <div class="col-6 col-lg-3 mb-4">
-                  <figure>
-                      <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
-                          <img src="images2/IMG_6862.jpeg" alt="" class="img-fluid">
-                      </a>
-                  </figure>
-              </div>
-              <!-- //.col-6 -->
-              
-              <div class="col-6 col-lg-3 mb-4">
-                  <figure>
-                      <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
-                          <img src="images2/IMG_7181.jpeg" alt="" class="img-fluid">
-                      </a>
-                  </figure>
-              </div>
-              <!-- //.col-6 -->
-              <div class="col-6 col-lg-3 mb-4">
-                  <figure>
-                      <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
-                          <img src="images2/IMG_9041.jpeg" alt="" class="img-fluid">
-                      </a>
-                  </figure>
-              </div>
-              <!-- //.col-6 -->
-              <div class="col-6 col-lg-3 mb-4">
-                  <figure>
-                      <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
-                          <img src="images2/IMG_1694258877251.jpg" alt="" class="img-fluid">
-                      </a>
-                  </figure>
-              </div>
-              <!-- //.col-6 -->
-              <div class="col-6 col-lg-3 mb-4">
-                  <figure>
-                      <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
-                          <img src="images2/IMG_9993.jpg" alt="" class="img-fluid">
-                      </a>
-                  </figure>
-              </div>
-              <!-- //.col-6 -->
-              <div class="col-6 col-lg-3 mb-4">
-                  <figure>
-                      <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
-                          <img src="images2/IMG_9811.jpeg" alt="" class="img-fluid">
-                      </a>
-                  </figure>
-              </div>
-              <!-- //.col-6 -->
-              <div class="col-6 col-lg-3 mb-4">
-                  <figure>
-                      <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
-                          <img src="images2/IMG_3379.jpeg" alt="" class="img-fluid">
-                      </a>
-                  </figure>
-              </div>
-              <!-- //.col-6 -->
-              <div class="col-6 col-lg-3 mb-4">
-                  <figure>
-                      <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
-                          <img src="images2/IMG_1981.jpeg" alt="" class="img-fluid">
-                      </a>
-                  </figure>
-              </div>
-              <!-- //.col-6 -->
-          </div>
-          <!-- //.row -->
+        </div>
+        <!-- //.row -->
       </div>
       <!-- //.container -->
-  </section>
-  <!-- Section - Photos End -->
-
-
-  <!-- Section - Wedding Gifts Start -->
-  <section id="wedding-gifts" class="bg-holder" data-bg-image="images2/thanks.jpeg" style="background-image: url("images2/thanks.jpeg");">
+    </section>
+    <!-- Section - Wedding Party End -->
+    <!-- Section - Love Story Start -->
+    <section id="love-story" class="bg-holder" data-bg-image="images2/bg-story.jpg" style="background-image: url(" images2/bg-story.jpg");">
       <div class="container">
-          <div class="row align-items-center justify-content-center justify-content-lg-start">
-              <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-5">
+        <div class="row align-items-center justify-content-center justify-content-lg-end">
+          <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-5">
+            <div id="carousel-love-story" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
                   <div class="shape-rect-content-wrapper position-relative py-5 py-sm-0 rounded-5">
-                      <div class="shape-rect-content d-flex flex-column justify-content-center px-4 px-sm-5 text-center">
-                          <h3 class="font-alt">Sự Hiện Diện Của Bạn Là Món Quà</h3>
-                          <span class="divider divider-heart mb-4"></span>
-
-                          <div class="mb-2 text-body-secondary">
-                              <p>Sự hiện diện của bạn trong ngày cưới của tụi mình đã là món quà quý giá nhất!</p>
-                              <p>Đừng quên mang theo tinh thần thoải mái và quẩy hết mình cùng vợ chồng tụi mình nhé!</p>
-                          </div>
-                          <!-- //.mb-2 -->
-
-                          <span class="divider divider-floral d-none d-xl-block"></span>
-                      </div>
-                      <!-- //.shape-rect-content -->
-
-                      <!-- SVG Image -->
-                      <img src="images/shape-rect-content-wrapper.svg" alt="" class="d-none d-sm-block img-fluid">
+                    <div class="shape-rect-content d-flex flex-column justify-content-center pb-5 pb-xl-0 px-4 px-sm-5 text-center">
+                      <h3 class="font-alt">Lần Đầu Gặp Nhau</h3>
+                      <span class="divider divider-heart mb-4"></span>
+                      <p class="mb-xl-4 text-body-secondary">Tụi mình gặp nhau qua buổi phỏng vấn của mình vào công ty. Ấn tượng đầu tiên là Vy thơm lắm mọi người. Sau đại dịch Covid thì tụi mình bắt đầu tìm hiểu nhau. Buổi hẹn đầu tiên tụi mình ra cà phê Xô Bồ, tên nó hơi Xô Bồ tí nhưng không phải là Xô Bồ. Tụi mình vẫn còn ngại ngùng ở lần đầu. Tuy nhiên, buổi hẹn thứ hai diễn ra tốt đẹp hơn nhiều.</p>
+                      <span class="divider divider-floral d-none d-xl-block"></span>
+                    </div>
+                    <!-- //.shape-rect-content -->
+                    <!-- SVG Image -->
+                    <img src="images/shape-rect-content-wrapper.svg" alt="" class="d-none d-sm-block img-fluid">
                   </div>
                   <!-- //.shape-rect-content-wrapper -->
+                </div>
+                <!-- //.carousel-item -->
+                <div class="carousel-item">
+                  <div class="shape-rect-content-wrapper position-relative py-5 py-sm-0 rounded-5">
+                    <div class="shape-rect-content d-flex flex-column justify-content-center pb-5 pb-xl-0 px-4 px-sm-5 text-center">
+                      <h3 class="font-alt">Những Buổi Hẹn Hò</h3>
+                      <span class="divider divider-heart mb-4"></span>
+                      <p class="mb-xl-4 text-body-secondary">Điểm thú vị là tụi mình chung công ty nên mình được đưa đón Vy đi làm mỗi ngày. Tụi mình cùng nhau khám phá những quán cà phê mới, dạo phố cuối tuần và chia sẻ những câu chuyện về cuộc sống. Mỗi buổi hẹn lại khiến hiểu nhau và gắn kết hơn.</p>
+                      <span class="divider divider-floral d-none d-xl-block"></span>
+                    </div>
+                    <!-- //.shape-rect-content -->
+                    <!-- SVG Image -->
+                    <img src="images/shape-rect-content-wrapper.svg" alt="" class="d-none d-sm-block img-fluid">
+                  </div>
+                  <!-- //.shape-rect-content-wrapper -->
+                </div>
+                <!-- //.carousel-item -->
+                <div class="carousel-item">
+                  <div class="shape-rect-content-wrapper position-relative py-5 py-sm-0 rounded-5">
+                    <div class="shape-rect-content d-flex flex-column justify-content-center pb-5 pb-xl-0 px-4 px-sm-5 text-center">
+                      <h3 class="font-alt">Khoảnh Khắc Hạnh Phúc</h3>
+                      <span class="divider divider-heart mb-4"></span>
+                      <p class="mb-xl-4 text-body-secondary">Những tháng ngày bên nhau trôi qua thật nhanh, vui có buồn có. Cùng nhau trải qua nhiều kỷ niệm đáng nhớ, từ những chuyến đi chơi xa ở Tây Bắc đến những buổi tối đơn giản ở nhà đi dạo cùng nhau. Tình yêu lớn dần theo thời gian, và tụi mình hoà hợp hơn, chấp nhận được những thứ khác biệt của nhau.</p>
+                      <span class="divider divider-floral d-none d-xl-block"></span>
+                    </div>
+                    <!-- //.shape-rect-content -->
+                    <!-- SVG Image -->
+                    <img src="images/shape-rect-content-wrapper.svg" alt="" class="d-none d-sm-block img-fluid">
+                  </div>
+                  <!-- //.shape-rect-content-wrapper -->
+                </div>
+                <!-- //.carousel-item -->
+                <div class="carousel-item">
+                  <div class="shape-rect-content-wrapper position-relative py-5 py-sm-0 rounded-5">
+                    <div class="shape-rect-content d-flex flex-column justify-content-center pb-5 pb-xl-0 px-4 px-sm-5 text-center">
+                      <h3 class="font-alt">Tình Yêu Trọn Vẹn</h3>
+                      <span class="divider divider-heart mb-4"></span>
+                      <p class="mb-xl-4 text-body-secondary">Sau gần 3 năm, tụi mình đã chắc chắn về tình cảm của nhau. Đã trải qua đủ những khoảnh khắc vui buồn, những thử thách và hạnh phúc. Tình yêu đã trưởng thành và sâu sắc hơn, và biết rằng đã đến lúc bước tiếp sang trang mới của cuộc đời.</p>
+                      <span class="divider divider-floral d-none d-xl-block"></span>
+                    </div>
+                    <!-- //.shape-rect-content -->
+                    <!-- SVG Image -->
+                    <img src="images/shape-rect-content-wrapper.svg" alt="" class="d-none d-sm-block img-fluid">
+                  </div>
+                  <!-- //.shape-rect-content-wrapper -->
+                </div>
+                <!-- //.carousel-item -->
               </div>
-              <!-- //.col-12 -->
+              <!-- //.carousel-inner -->
+              <div class="carousel-indicators align-items-center d-flex m-0 mx-auto">
+                <img src="images/carousel-indicator-wrapper.svg" alt="" class="img-fluid position-absolute start-0 top-0">
+              </div>
+              <!-- //.carousel-indicators -->
+            </div>
+            <!-- //.carousel -->
           </div>
-          <!-- //.row -->
+          <!-- //.col-12 -->
+        </div>
+        <!-- //.row -->
       </div>
       <!-- //.container -->
-  </section>
-  <!-- Section - Wedding Gifts End -->
-
-  <section id="proposed">
-    <div class="container">
+    </section>
+    <!-- Section - Love Story End -->
+    <!-- Section - Photos Start -->
+    <section id="photos" class="border-top">
+      <div class="container">
+        <div class="row mb-5 pb-lg-5">
+          <div class="col-12 position-relative text-center z-2">
+            <h2 class="font-alt fs-1 mb-3">Thư Viện Ảnh</h2>
+            <p class="fs-5 mb-4 text-body-secondary">Mỗi khoảnh khắc trong cuộc sống đều là một phép màu, chúng ta nên tận hưởng thay vì bỏ qua.</p>
+            <span class="divider divider-arrow"></span>
+          </div>
+          <!-- //.col-12 -->
+        </div>
+        <!-- //.row -->
+        <div class="row gallery-grid">
+          <div class="col-6 col-lg-3 mb-4">
+            <figure>
+              <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
+                <img src="images/IMG_6405.jpg" alt="" class="img-fluid">
+              </a>
+            </figure>
+          </div>
+          <div class="col-6 col-lg-3 mb-4">
+            <figure>
+              <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
+                <img src="images2/IMG_9167.jpeg" alt="" class="img-fluid">
+              </a>
+            </figure>
+          </div>
+          <div class="col-6 col-lg-3 mb-4">
+            <figure>
+              <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
+                <img src="images2/20.jpeg" alt="" class="img-fluid">
+              </a>
+            </figure>
+          </div>
+          <div class="col-6 col-lg-3 mb-4">
+            <figure>
+              <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
+                <img src="images2/21.jpeg" alt="" class="img-fluid">
+              </a>
+            </figure>
+          </div>
+          <div class="col-6 col-lg-3 mb-4">
+            <figure>
+              <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
+                <img src="images2/IMG_5421.JPG" alt="" class="img-fluid">
+              </a>
+            </figure>
+          </div>
+          <div class="col-6 col-lg-3 mb-4">
+            <figure>
+              <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
+                <img src="images2/IMG_8530.jpg" alt="" class="img-fluid">
+              </a>
+            </figure>
+          </div>
+          <div class="col-6 col-lg-3 mb-4">
+            <figure>
+              <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
+                <img src="images2/24.jpg" alt="" class="img-fluid">
+              </a>
+            </figure>
+          </div>
+          <div class="col-6 col-lg-3 mb-4">
+            <figure>
+              <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
+                <img src="images2/25.jpeg" alt="" class="img-fluid">
+              </a>
+            </figure>
+          </div>
+          <div class="col-6 col-lg-3 mb-4">
+            <figure>
+              <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
+                <img src="images2/44.JPEG" alt="" class="img-fluid">
+              </a>
+            </figure>
+          </div>
+          <div class="col-6 col-lg-3 mb-4">
+            <figure>
+              <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
+                <img src="images2/IMG_3576.jpg" alt="" class="img-fluid">
+              </a>
+            </figure>
+          </div>
+          <!-- //.col-6 -->
+          <div class="col-6 col-lg-3 mb-4">
+            <figure>
+              <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
+                <img src="images2/AY4A0816.jpg" alt="" class="img-fluid">
+              </a>
+            </figure>
+          </div>
+          <!-- //.col-6 -->
+          <div class="col-6 col-lg-3 mb-4">
+            <figure>
+              <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
+                <img src="images2/dclassic 2024-03-01 52757.721 CH.jpg" alt="" class="img-fluid">
+              </a>
+            </figure>
+          </div>
+          <!-- //.col-6 -->
+          <div class="col-6 col-lg-3 mb-4">
+            <figure>
+              <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
+                <img src="images2/IMG_0314.jpg" alt="" class="img-fluid">
+              </a>
+            </figure>
+          </div>
+          <!-- //.col-6 -->
+          <div class="col-6 col-lg-3 mb-4">
+            <figure>
+              <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
+                <img src="images2/IMG_0595.jpg" alt="" class="img-fluid">
+              </a>
+            </figure>
+          </div>
+          <!-- //.col-6 -->
+          <div class="col-6 col-lg-3 mb-4">
+            <figure>
+              <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
+                <img src="images2/IMG_8743.jpg" alt="" class="img-fluid">
+              </a>
+            </figure>
+          </div>
+          <!-- //.col-6 -->
+          <div class="col-6 col-lg-3 mb-4">
+            <figure>
+              <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
+                <img src="images2/IMG_6005.jpeg" alt="" class="img-fluid">
+              </a>
+            </figure>
+          </div>
+          <!-- //.col-6 -->
+          <div class="col-6 col-lg-3 mb-4">
+            <figure>
+              <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
+                <img src="images2/IMG_4808.jpeg" alt="" class="img-fluid">
+              </a>
+            </figure>
+          </div>
+          <div class="col-6 col-lg-3 mb-4">
+            <figure>
+              <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
+                <img src="images2/fxn 2024-03-09 74225.883 CH.jpg" alt="" class="img-fluid">
+              </a>
+            </figure>
+          </div>
+          <!-- //.col-6 -->
+          <div class="col-6 col-lg-3 mb-4">
+            <figure>
+              <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
+                <img src="images2/IMG_6862.jpeg" alt="" class="img-fluid">
+              </a>
+            </figure>
+          </div>
+          <!-- //.col-6 -->
+          <div class="col-6 col-lg-3 mb-4">
+            <figure>
+              <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
+                <img src="images2/IMG_7181.jpeg" alt="" class="img-fluid">
+              </a>
+            </figure>
+          </div>
+          <div class="col-6 col-lg-3 mb-4">
+            <figure>
+              <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
+                <img src="images2/fxn 2024-10-26 194936.358.jpg" alt="" class="img-fluid">
+              </a>
+            </figure>
+          </div>
+          <!-- //.col-6 -->
+          <div class="col-6 col-lg-3 mb-4">
+            <figure>
+              <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
+                <img src="images2/IMG_9041.jpeg" alt="" class="img-fluid">
+              </a>
+            </figure>
+          </div>
+          <!-- //.col-6 -->
+          <div class="col-6 col-lg-3 mb-4">
+            <figure>
+              <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
+                <img src="images2/IMG_1694258877251.jpg" alt="" class="img-fluid">
+              </a>
+            </figure>
+          </div>
+          <!-- //.col-6 -->
+          <div class="col-6 col-lg-3 mb-4">
+            <figure>
+              <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
+                <img src="images2/IMG_9993.jpg" alt="" class="img-fluid">
+              </a>
+            </figure>
+          </div>
+          <!-- //.col-6 -->
+          <div class="col-6 col-lg-3 mb-4">
+            <figure>
+              <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
+                <img src="images2/IMG_9811.jpeg" alt="" class="img-fluid">
+              </a>
+            </figure>
+          </div>
+          <!-- //.col-6 -->
+          <div class="col-6 col-lg-3 mb-4">
+            <figure>
+              <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
+                <img src="images2/IMG_3379.jpeg" alt="" class="img-fluid">
+              </a>
+            </figure>
+          </div>
+          <!-- //.col-6 -->
+          <div class="col-6 col-lg-3 mb-4">
+            <figure>
+              <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
+                <img src="images2/IMG_1981.jpeg" alt="" class="img-fluid">
+              </a>
+            </figure>
+          </div>
+          <div class="col-6 col-lg-3 mb-4">
+            <figure>
+              <a href="javascript:void(0)" data-gall="photos" class="vbox-item">
+                <img src="images2/IMG_8672.jpg" alt="" class="img-fluid">
+              </a>
+            </figure>
+          </div>
+          <!-- //.col-6 -->
+        </div>
+        <!-- //.row -->
+      </div>
+      <!-- //.container -->
+    </section>
+    <!-- Section - Photos End -->
+    <!-- Section - Wedding Gifts Start -->
+    <section id="wedding-gifts" class="bg-holder" data-bg-image="images2/thanks.jpeg" style="background-image: url(" images2/thanks.jpeg");">
+      <div class="container">
+        <div class="row align-items-center justify-content-center justify-content-lg-start">
+          <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-5">
+            <div class="shape-rect-content-wrapper position-relative py-5 py-sm-0 rounded-5">
+              <div class="shape-rect-content d-flex flex-column justify-content-center px-4 px-sm-5 text-center">
+                <h3 class="font-alt">Sự Hiện Diện Của Bạn Là Món Quà</h3>
+                <span class="divider divider-heart mb-4"></span>
+                <div class="mb-2 text-body-secondary">
+                  <p>Sự hiện diện của bạn trong ngày cưới của tụi mình đã là món quà quý giá nhất!</p>
+                  <p>Đừng quên là tụi mình có hẹn vào ngày 16/3 này nhaaaa!</p>
+                </div>
+                <!-- //.mb-2 -->
+                <span class="divider divider-floral d-none d-xl-block"></span>
+              </div>
+              <!-- //.shape-rect-content -->
+              <!-- SVG Image -->
+              <img src="images/shape-rect-content-wrapper.svg" alt="" class="d-none d-sm-block img-fluid">
+            </div>
+            <!-- //.shape-rect-content-wrapper -->
+          </div>
+          <!-- //.col-12 -->
+        </div>
+        <!-- //.row -->
+      </div>
+      <!-- //.container -->
+    </section>
+    <!-- Section - Wedding Gifts End -->
+    <section id="proposed">
+      <div class="container">
         <div class="row">
-            <div class="col-12 position-relative text-center z-2">
-                <h2 class="font-alt fs-1 mb-3">Bản đồ</h2>
-                <span class="divider divider-arrow"></span>
-            </div>
-            <!-- //.col-12 -->
+          <div class="col-12 position-relative text-center z-2">
+            <h2 class="font-alt fs-1 mb-3">Bản đồ</h2>
+            <span class="divider divider-arrow"></span>
+          </div>
+          <!-- //.col-12 -->
         </div>
         <!-- //.row -->
-
         <div class="row align-items-center mt-4">
-            <div class="col-lg-12 position-relative mb-5 mb-lg-0">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242.99693613661452!2d108.34632680513764!3d12.97498729106712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x316e1917cdf1cfad%3A0xeb1d5e0436d94214!2zUXXDqiBuaMOgIGPhu6dhIEzDrXQ!5e0!3m2!1svi!2s!4v1735395844465!5m2!1svi!2s"
-                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <!-- //.col-lg-6 -->
+          <div class="col-lg-12 position-relative mb-5 mb-lg-0">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.0429398028423!2d106.68515207479271!3d10.808023258610563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752929c0e8be8b%3A0xbdb4b0e182b51a90!2zVHJ1bmcgVMOibSBZ4bq_biBUaeG7h2MgVsOgIEjhu5lpIE5naOG7iyBBbW9yIFJlc29ydA!5e0!3m2!1svi!2s!4v1731761677367!5m2!1svi!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <!-- //.col-lg-6 -->
         </div>
         <!-- //.row -->
-    </div>
-</section>
-
-  <script src="js/script.min.js"></script>
-  <script src="js/custom.js"></script>
-</body>
+      </div>
+    </section>
+    <script src="js/script.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
 </html>
-
