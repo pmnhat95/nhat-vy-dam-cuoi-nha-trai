@@ -6588,3 +6588,16 @@ header {
   }
 }
 /*# sourceMappingURL=style.min.css.map */
+@media (max-width: 768px) {
+  #love-story {
+    background-image: none !important;
+    background-color: #ddd;
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 769px) {
+  #love-story .is-mobile {
+    display: none;
+  }
+}
