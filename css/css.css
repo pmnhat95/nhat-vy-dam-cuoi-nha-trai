@@ -6589,7 +6589,8 @@ header {
 }
 /*# sourceMappingURL=style.min.css.map */
 @media (max-width: 768px) {
-  #love-story {
+  #love-story,
+  #wedding-gifts {
     background-image: none !important;
     background-color: #ddd;
     padding-bottom: 0;
@@ -6597,7 +6598,8 @@ header {
 }
 
 @media (min-width: 769px) {
-  #love-story .is-mobile {
+  #love-story .is-mobile,
+  #wedding-gifts .is-mobile {
     display: none;
   }
 }
