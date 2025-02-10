@@ -1,10 +1,10 @@
 {
 	"folders": [
 		{
-			"path": "../nhat-vy-dam-cuoi-nha-gai"
+			"path": "."
 		},
 		{
-			"path": "."
+			"path": "../nhat-vy-dam-cuoi-nha-gai"
 		}
 	],
 	"settings": {
